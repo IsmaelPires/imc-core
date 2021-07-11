@@ -1,0 +1,12 @@
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\bin\Debug\netcoreapp3.1\IMC.Aplicacao.deps.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\bin\Debug\netcoreapp3.1\IMC.Aplicacao.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\bin\Debug\netcoreapp3.1\IMC.Aplicacao.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\bin\Debug\netcoreapp3.1\IMC.Dominio.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\bin\Debug\netcoreapp3.1\IMC.Dominio.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.csproj.CopyComplete
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Aplicacao\obj\Debug\netcoreapp3.1\IMC.Aplicacao.pdb

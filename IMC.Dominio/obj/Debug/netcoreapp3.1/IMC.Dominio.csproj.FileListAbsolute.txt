@@ -1,0 +1,9 @@
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\bin\Debug\netcoreapp3.1\IMC.Dominio.deps.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\bin\Debug\netcoreapp3.1\IMC.Dominio.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\bin\Debug\netcoreapp3.1\IMC.Dominio.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dominio\obj\Debug\netcoreapp3.1\IMC.Dominio.csproj.AssemblyReference.cache

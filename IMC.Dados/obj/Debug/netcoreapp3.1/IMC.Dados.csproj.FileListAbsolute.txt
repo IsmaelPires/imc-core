@@ -1,0 +1,9 @@
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\bin\Debug\netcoreapp3.1\IMC.Dados.deps.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\bin\Debug\netcoreapp3.1\IMC.Dados.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\bin\Debug\netcoreapp3.1\IMC.Dados.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Dados\obj\Debug\netcoreapp3.1\IMC.Dados.pdb

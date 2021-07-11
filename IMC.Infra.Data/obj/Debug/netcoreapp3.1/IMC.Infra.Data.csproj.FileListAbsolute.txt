@@ -1,0 +1,15 @@
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Infra.Data.deps.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Infra.Data.runtimeconfig.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Infra.Data.runtimeconfig.dev.json
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Infra.Data.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Infra.Data.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.genruntimeconfig.cache
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Dominio.dll
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\bin\Debug\netcoreapp3.1\IMC.Dominio.pdb
+C:\Users\Ismael\source\repos\CalculoIMC\IMC.Infra.Data\obj\Debug\netcoreapp3.1\IMC.Infra.Data.csproj.CopyComplete
