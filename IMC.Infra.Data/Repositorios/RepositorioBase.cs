@@ -2,10 +2,8 @@
 using IMC.Dominio.Interfaces.Repositorios;
 using IMC.Infra.Data.Contextos;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace IMC.Infra.Data.Repositorios
 {

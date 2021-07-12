@@ -1,4 +1,7 @@
-﻿@{
+﻿@using IMC.Dominio.Entidades
+@model Usuario
+
+@{
     ViewData["Title"] = "Cálculo do IMC";
 }
 
@@ -7,18 +10,19 @@
     <div class="col-md-12">
         <div class="form">
             <div class="form-group">
+                <input style="display: none;" value="@Model.Id" id="IdUsuario"/>
                 <div class="row">
                     <div class="col-md-4">
                         <label>Nome</label>
-                        <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" id="nome">
+                        <input type="text" class="form-control" placeholder="Nome" aria-label="Nome" id="nome" value="@Model.Nome">
                     </div>
                     <div class="col-md-4">
                         <label>Peso</label>
-                        <input type="text" class="form-control" placeholder="Exemplo: 75" aria-label="Peso" id="peso">
+                        <input type="text" class="form-control" placeholder="Exemplo: 75" aria-label="Peso" id="peso" value="@Model.Peso">
                     </div>
                     <div class="col-md-4">
                         <label>Altura</label>
-                        <input type="text" class="form-control" placeholder="Exemplo: 1.77" aria-label="Altura" id="altura">
+                        <input type="text" class="form-control" placeholder="Exemplo: 1.77" aria-label="Altura" id="altura" value="@Model.Altura">
                     </div>
                 </div>
             </div>
@@ -26,7 +30,8 @@
         <div class="row actions">
             <div class="col-md-12">
                 <button class="btn btn-success mt-2 mr-2" id="btn-calcular-imc"><i class="fa fa-calculator"></i> Calcular</button>
-                <button class="btn btn-info mt-2" id="btn-limpar"><i class="fa fa-eraser"></i> Limpar campos</button>
+                <button class="btn btn-info mt-2 mr-2" id="btn-limpar"><i class="fa fa-eraser"></i> Limpar campos</button>
+                <button class="btn btn-danger mt-2" id="btn-cancelar"><i class="fa fa-close"> Cancelar</i></button>
             </div>
         </div>
         <div class="resultado mt-2 text-center"></div>

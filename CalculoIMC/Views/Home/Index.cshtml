@@ -2,12 +2,12 @@
 @model IEnumerable<Usuario>
 
 @{
-    ViewData["Title"] = "Listagem";
+    ViewData["Title"] = "Histórico";
 }
 
 <div class="m-5">
     <div class="col-md-12">
-        <h1>Listagem</h1>
+        <h2>Histórico dos Cálculos</h2>
         <table class="table table-bordered table-hover">
             <thead>
                 <tr>
@@ -30,7 +30,7 @@
                         <td>@usuario.Imc</td>
                         <td>
                             <button class="btn btn-danger btn-sm" data-id="@usuario.Id" id="btn-excluir"><i class="fa fa-trash-o"></i></button>
-                            @*<button class="btn btn-warning btn-sm" data-id="@usuario.Id" id="btn-editar"><i class="fa fa-pencil-square-o"></i></button>*@
+                            <button class="btn btn-warning btn-sm" data-id="@usuario.Id" id="btn-editar"><i class="fa fa-pencil-square-o"></i></button>
                         </td>
                     </tr>
                 }

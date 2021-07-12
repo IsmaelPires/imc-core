@@ -4,10 +4,7 @@ using IMC.Dominio.Interfaces.Repositorios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CalculoIMC.Controllers
 {
@@ -29,21 +26,28 @@ namespace CalculoIMC.Controllers
             return View("Index", lista);
         }
 
-        public IActionResult Cadastro()
+        public IActionResult Cadastro(int? id)
         {
-            return View();
+            if (id <= 0 || id == null)
+            {
+                return View("Cadastro", new Usuario());
+            }
+
+            var usuario = _usuarioRepositorio.SelecionarPorId(id.Value);
+
+            return View(usuario);
         }
 
-        public IActionResult Editar(int id)
+        public void Editar(Usuario usuario)
         {
-            var usuario = _usuarioRepositorio.SelecionarPorId(id);
-
-            if (usuario == null)
+            try
             {
-                return View("Index");
-            };
-
-            return View("Cadastro");
+                _usuarioRepositorio.Alterar(usuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public void Cadastrar(Usuario usuario)

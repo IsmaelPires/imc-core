@@ -63,16 +63,22 @@ $("#btn-limpar").on("click", function () {
     $('.resultado').removeClass('alert alert-' + classe);
     $('.tabela-imc').attr('style', 'display:none;');
 });
-/*Funções*/
 
+$("#btn-cancelar").on("click", function () {
+    window.location.href = "/Home/Index";
+});
+
+/*Funções*/
 function calcularIMC(obj) {
     var nome = obj.Nome;
     var peso = parseFloat(obj.Peso);
     var altura = parseFloat(obj.Altura);
+    var idUsuario = parseInt($("#IdUsuario").val());
     var imc = parseInt(peso / (altura * altura));
     var classeAlerta = "";
 
     var dadosSalvar = {
+        Id: idUsuario,
         Nome: nome,
         Peso: peso,
         Altura: altura,
@@ -93,18 +99,35 @@ function calcularIMC(obj) {
 
     localStorage.setItem('classe', classeAlerta);
 
+    
+
     salvar(dadosSalvar);
 }
 
 function salvar(dados) {
-    $.ajax({
-        url: "/Home/Cadastrar",
-        context: document.body,
-        data: dados
-    }).done(function () {
-        $('.resultado').html('<p>Atenção ' + dados.Nome + ',' + ' o seu IMC é ' + dados.Imc + '.</p>');
-        $('.resultado').addClass('alert alert-' + localStorage.getItem("classe"));
+    var idUsuario = parseInt($("#IdUsuario").val());
 
-        $('.tabela-imc').removeAttr('style');
-    });
+    if (idUsuario > 0 && idUsuario != undefined && idUsuario != null) {
+        $.ajax({
+            url: "/Home/Editar",
+            context: document.body,
+            data: dados
+        }).done(function () {
+            $('.resultado').html('<p>Atenção ' + dados.Nome + ',' + ' o seu IMC é ' + dados.Imc + '.</p>');
+            $('.resultado').addClass('alert alert-' + localStorage.getItem("classe"));
+
+            $('.tabela-imc').removeAttr('style');
+        });
+    } else {
+        $.ajax({
+            url: "/Home/Cadastrar",
+            context: document.body,
+            data: dados
+        }).done(function () {
+            $('.resultado').html('<p>Atenção ' + dados.Nome + ',' + ' o seu IMC é ' + dados.Imc + '.</p>');
+            $('.resultado').addClass('alert alert-' + localStorage.getItem("classe"));
+
+            $('.tabela-imc').removeAttr('style');
+        });
+    }
 }
