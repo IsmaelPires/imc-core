@@ -25,7 +25,8 @@ namespace CalculoIMC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var lista = _usuarioRepositorio.SelecionarTodos();
+            return View("Index", lista);
         }
 
         public IActionResult Cadastro()
@@ -33,11 +34,35 @@ namespace CalculoIMC.Controllers
             return View();
         }
 
+        public IActionResult Editar(int id)
+        {
+            var usuario = _usuarioRepositorio.SelecionarPorId(id);
+
+            if (usuario == null)
+            {
+                return View("Index");
+            };
+
+            return View("Cadastro");
+        }
+
         public void Cadastrar(Usuario usuario)
         {
             try
             {
                 _usuarioRepositorio.Incluir(usuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void Excluir(int id)
+        {
+            try
+            {
+                _usuarioRepositorio.Excluir(id);
             }
             catch (Exception ex)
             {

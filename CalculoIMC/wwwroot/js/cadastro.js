@@ -63,7 +63,6 @@ $("#btn-limpar").on("click", function () {
     $('.resultado').removeClass('alert alert-' + classe);
     $('.tabela-imc').attr('style', 'display:none;');
 });
-
 /*Funções*/
 
 function calcularIMC(obj) {

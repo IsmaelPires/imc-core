@@ -1,7 +1,41 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using IMC.Dominio.Entidades
+@model IEnumerable<Usuario>
+
+@{
+    ViewData["Title"] = "Listagem";
 }
 
-<span>Listagem!</span>
-
+<div class="m-5">
+    <div class="col-md-12">
+        <h1>Listagem</h1>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Peso</th>
+                    <th scope="col">Altura</th>
+                    <th scope="col">IMC</th>
+                    <th scope="col" style="width: 10%;">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var usuario in Model)
+                {
+                    <tr>
+                        <th scope="row">@usuario.Id</th>
+                        <td>@usuario.Nome</td>
+                        <td>@usuario.Peso</td>
+                        <td>@usuario.Altura</td>
+                        <td>@usuario.Imc</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm" data-id="@usuario.Id" id="btn-excluir"><i class="fa fa-trash-o"></i></button>
+                            @*<button class="btn btn-warning btn-sm" data-id="@usuario.Id" id="btn-editar"><i class="fa fa-pencil-square-o"></i></button>*@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
 
